@@ -7,3 +7,63 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
+
+.formWrapper {
+  display: flex;
+  max-width: 420px;
+  margin: auto;
+  gap: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.formWrapper h2 {
+  text-align: center;
+}
+
+.inputWrapper {
+  display: flex;
+  max-width: 420px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.inputWrapper input {
+  width: 22rem;
+  padding: 10px;
+}
+.btnClass {
+  width: 10rem;
+  border-radius: 10px;
+  background-color: #9092a7;
+  color: #fff;
+  padding: 5px;
+  margin: 5px 0 0 0;
+}
+.btnWrapper {
+  display: flex;
+  gap: 10px;
+}
+.secondWrapper {
+  display: flex;
+  max-width: 620px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.optionClass {
+  width: 22rem;
+  padding: 10px;
+}
